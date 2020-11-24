@@ -18,7 +18,7 @@ nltk.download('popular', quiet=True) # for downloading packages
 
 
 #Reading in the corpus
-with open('Data/chat.txt', 'r', encoding='utf8', errors ='ignore') as fin:
+with open('Data/pandemic', 'r', encoding='utf8', errors ='ignore') as fin:
     raw = fin.read().lower()
 
 #TOkenisation
